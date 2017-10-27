@@ -27,7 +27,6 @@ import android.widget.Spinner;
 import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
-import com.cryptosasa.R;
 
 import java.util.ArrayList;
 import java.util.List;

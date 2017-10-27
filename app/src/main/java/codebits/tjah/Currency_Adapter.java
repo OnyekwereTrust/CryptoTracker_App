@@ -21,7 +21,7 @@ import com.apptakk.http_request.HttpRequest;
 import com.apptakk.http_request.HttpRequestTask;
 import com.apptakk.http_request.HttpResponse;
 import com.bumptech.glide.Glide;
-import com.cryptosasa.R;
+
 
 import java.util.List;
 
