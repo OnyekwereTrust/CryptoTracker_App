@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">CryptoTracker</string>
+
+    <string name="converter_page">ConVerter</string>
+
+    <string name="action_goto_conversion">Conversion</string>
+
+    <string name="Btc_converter_text">in your base currency</string>
+
+    <string name="action_delete_item">Delete</string>
+
+    <string name="shared_crypto_pref">CRYPTOCOMPARE</string>
+
+    <string name="double_card_alert">This Card already exits</string>
+
+    <string name="empty_view">No items, add \'+\' to get started...</string>
+
+
+
+
+
+
+    <string-array name="currency_list">
+        <item>NGN, ₦</item>
+        <item>USD, US$</item>
+        <item>EUR, €</item>
+        <item>JPY, ¥</item>
+        <item>AUD, A$</item>
+        <item>BRL, R$</item>
+        <item>CAD, C$</item>
+        <item>CHF, SFr</item>
+        <item>GBP, £</item>
+        <item>IDR, Rp</item>
+        <item>INR, ₹</item>
+        <item>KES, Ksh</item>
+        <item>KRW, ₩</item>
+        <item>CNY, Y</item>
+        <item>PLN, zł</item>
+        <item>RUB, ₽</item>
+        <item>THB, ฿</item>
+        <item>TRY, ₺</item>
+        <item>TZS, Tsh</item>
+        <item>UAH, ₴</item>
+    </string-array>
+
+
+</resources>

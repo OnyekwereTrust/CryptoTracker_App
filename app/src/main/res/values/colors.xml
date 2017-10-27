@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4c4c4c</color>
+    <color name="colorPrimaryDark">#212121</color>
+    <color name="primary_light">#C5CAE9</color>
+    <color name="colorAccent">#212121</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#BDBDBD</color>
+    <color name="viewBg">#f1f5f8</color>
+    <color name="currency_title">#4c4c4c</color>
+    <color name="text_red">#ff0000</color>
+    <color name="text_green">#006400</color>
+</resources>
