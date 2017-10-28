@@ -5,13 +5,11 @@
 
     <string name="action_goto_conversion">Conversion</string>
 
-    <string name="Btc_converter_text">in your base currency</string>
-
     <string name="action_delete_item">Delete</string>
 
     <string name="shared_crypto_pref">CRYPTOCOMPARE</string>
 
-    <string name="double_card_alert">This Card already exits</string>
+    <string name="double_card_alert">Card already exits!</string>
 
     <string name="empty_view">No items, add \'+\' to get started...</string>
 

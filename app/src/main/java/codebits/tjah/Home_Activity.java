@@ -116,13 +116,13 @@ public class Home_Activity extends AppCompatActivity implements SharedPreference
                     }
                     //this checks if a card has already been added
                     else {
-                        Toast.makeText(getApplicationContext(), "This card already exists!", Toast.LENGTH_LONG).show();
+                        Toast.makeText(getApplicationContext(), R.string.double_card_alert, Toast.LENGTH_LONG).show();
                     }
                 } else if (radio_btc.isChecked()) {
                     if (!checkIfExists(R.drawable.btc_black, name)) {
                         addCard(radio_btc.getText().toString(), name, symbol);
                     } else {
-                        Toast.makeText(getApplicationContext(), "This card already exists!", Toast.LENGTH_LONG).show();
+                        Toast.makeText(getApplicationContext(), R.string.double_card_alert, Toast.LENGTH_LONG).show();
                     }
                 }
             }
@@ -215,7 +215,7 @@ public class Home_Activity extends AppCompatActivity implements SharedPreference
 
     public void loadArray() {
 
-        // Extract all items from sharedPreference to the currencyList*/
+        // Extract all items from sharedPreference to the currencyList
         currencyList.clear();
         int size = sharedPref.getInt("List_size", 0);
 
@@ -266,29 +266,28 @@ public class Home_Activity extends AppCompatActivity implements SharedPreference
 
         @Override
         public void getItemOffsets(Rect outRect, View view, RecyclerView parent, RecyclerView.State state) {
-            int position = parent.getChildAdapterPosition(view); // item position
-            int column = position % spanCount; // item column
+            int position = parent.getChildAdapterPosition(view);
+            int column = position % spanCount;
 
             if (includeEdge) {
-                outRect.left = spacing - column * spacing / spanCount; // spacing - column * ((1f / spanCount) * spacing)
-                outRect.right = (column + 1) * spacing / spanCount; // (column + 1) * ((1f / spanCount) * spacing)
+                outRect.left = spacing - column * spacing / spanCount;
+                outRect.right = (column + 1) * spacing / spanCount;
 
-                if (position < spanCount) { // top edge
+                if (position < spanCount) {
                     outRect.top = spacing;
                 }
-                outRect.bottom = spacing; // item bottom
+                outRect.bottom = spacing;
             } else {
-                outRect.left = column * spacing / spanCount; // column * ((1f / spanCount) * spacing)
-                outRect.right = spacing - (column + 1) * spacing / spanCount; // spacing - (column + 1) * ((1f /    spanCount) * spacing)
-                if (position >= spanCount) {
-                    outRect.top = spacing; // item top
+                outRect.left = column * spacing / spanCount;
+                outRect.right = spacing - (column + 1) * spacing / spanCount;
+                    outRect.top = spacing;
                 }
             }
         }
-    }
 
 
-    // Converting dp to pixel
+
+
 
     private int dpToPx(int dp) {
         Resources r = getResources();

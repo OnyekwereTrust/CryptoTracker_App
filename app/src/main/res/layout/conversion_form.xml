@@ -36,15 +36,7 @@
             android:orientation="vertical"
             android:paddingTop="30dp">
 
-                <TextView
-                    android:id="@+id/textView"
-                    android:layout_width="279dp"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="right"
-                    android:layout_weight="1"
-                    android:paddingTop="5dp"
-                    android:text="@string/Btc_converter_text"
-                    android:textAlignment="center" />
+
 
                 <EditText
                     android:id="@+id/quote_currency_conversion"
