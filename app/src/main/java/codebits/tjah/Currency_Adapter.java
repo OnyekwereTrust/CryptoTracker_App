@@ -197,14 +197,6 @@ public class Currency_Adapter extends RecyclerView.Adapter<Currency_Adapter.MyVi
         @Override
         public boolean onMenuItemClick(MenuItem menuItem) {
             switch (menuItem.getItemId()) {
-                case R.id.action_conversion:
-
-                    Intent theIntent = new Intent(mContext, Conversion_Activity.class);
-                    theIntent.putExtra("crypto_position", ITEM_POSITION);
-                    mContext.startActivity(theIntent);
-                    Home_Activity homeActivity = new Home_Activity();
-                    homeActivity.finish();
-                    return true;
 
                 case R.id.action_remove:
 
